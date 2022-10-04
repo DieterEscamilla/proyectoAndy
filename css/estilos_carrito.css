@@ -1,0 +1,291 @@
+*{
+  margin:0;
+  padding:0;
+}
+body{
+  background:#2a171e;
+}
+main{
+   /*height:1000px;*/
+}
+.logo{
+  position:relative;
+  width:550px;
+  height:170px;
+  top:-10px;
+}
+.enlace-inicio{
+  position:absolute;
+  width:300px;
+  height:110px;
+  top:80px;
+  left:520px;
+}
+nav{
+  margin-top:40px;
+  /*display:flex;
+  justify-content:center;*/
+}
+.menu-derecho{
+  position:relative;
+  right:33px;
+  width:36%;
+  border-bottom:2px solid #8b4845;
+  border-right:2px solid #8b4845;
+}
+.menu-izquierdo{
+  position:relative;
+  left:24px;
+  width:36%;
+  border-bottom:2px solid #8b4845;
+  border-left:2px solid #8b4845;
+}
+.menu{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+}
+.menu-general{
+  display:flex;
+  justify-content: space-around;
+  height:25px;
+  list-style:none;
+  font-family:'Open Sans';
+  font-size:18px;
+  margin-top:12px;
+}
+.menu-general li{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  height:100%;
+  width:100%;
+}
+.menu-general li:hover{
+  background:#8b4845;
+}
+.menu-general li a{
+  text-decoration: none;
+  color:#e7c140;
+  font-weight: 700;
+  padding:25px;
+}
+
+.menu-generos:hover{
+  background:#8b4845;
+}
+.contenedor-barra-busqueda{
+  width:800px;
+  margin:20px auto;
+  display:flex;
+}
+.barra-busqueda{
+  width:90%;
+  padding:10px;
+  margin-right:20px;
+  margin-bottom:50px;
+  outline:none;
+  background:#9c442d;
+  border:1px solid #ff7957;
+  border-radius:10px 0 0 10px;
+  font-family:'Open Sans';
+  color:#f2f2f2;
+  font-weight:800;
+  
+}
+.barra-busqueda::placeholder{
+  color:gray;
+  font-size:17px;
+}
+.barra-busqueda:focus{
+  border:1px solid #e7c140;
+}
+
+.generos-desplegado{
+  position:absolute;
+  top:150px;
+  left:27px;
+  width:160px;
+  height:40px;
+  visibility:hidden;
+
+}
+.mi-cuenta-desplegado{
+  position:absolute;
+  right:165px;
+  top:150px;
+  width:160px;
+  height:40px;
+  visibility:hidden;
+  z-index: 100;
+}
+.menus-desplegables li{
+  height:100%;
+  background:#8b4845;
+  list-style:none;
+  font-family:'Open Sans';
+  font-size:16px;
+}
+.menus-desplegables li:hover{
+  background:#0087ff;
+}
+.menus-desplegables li a{
+  margin-left:10px;
+  display:flex;
+  align-items:center;
+  text-decoration:none;
+  color:#ffffff;
+  height:100%;
+}
+.contenedor-lupa{
+  width:100px;
+  height:40px;
+  background:#5763ff;
+  border-radius:0 10px 10px 0;
+  display:flex;
+  justify-content:center;
+  align-items: center;
+  border:1px solid #ff7957;
+  cursor:pointer;
+  position:relative;
+  right:21px;
+}
+.lupa-icono{
+  width:30px;
+}
+.contenedor-lupa:hover{
+  background:#9c442d;
+}
+.cont-registro-login{
+position:absolute;
+
+}
+/*.carrito-compras{
+  width:55px;
+  height:50px;
+  position:absolute;
+  right:65px;
+  top:34px;
+  background:#5763ff;
+  border:1px solid #ff7957;
+  border-radius:10px;
+  cursor:pointer;
+}*/
+/*.carrito-compras:hover{
+  background:#9c442d;
+  
+}
+.carrito-compras img{
+  width:35px;
+}*/
+.cont-registro-login{
+  position:absolute;
+  right:150px;
+  top:40px;
+  font-size:16px;
+  font-family:'Open Sans';
+  color:#fffbf4;
+}
+.cont-registro-login a{
+  font-size:16px;
+  font-family:'Open Sans';
+  color:#ff7957;
+  text-decoration:none;
+}
+.cont-registro-login a:hover{
+ color:#e7c140;
+}
+
+/*ffd5f4  fffbf4*/
+.cancelar-busqueda{
+  width:14px;
+  height:12px;
+  position:relative; 
+  top:4px;
+  right:140px;
+  font-size:20px;
+  font-family:'Open Sans';
+  color:#f2f2f2;
+  visibility:hidden;
+  cursor:pointer;
+}
+
+.adorno-generos-desplegado_1{
+  width:5px;
+  height:7px;
+  background:#8b4845;
+  position:absolute;
+  bottom:40px;
+  left:20px;
+
+}
+.adorno-generos-desplegado_2{
+  width:5px;
+  height:7px;
+  background:#8b4845;
+  position:absolute;
+  bottom:40px;
+  left:120px;
+
+}
+.adorno-miCuenta-desplegado_1{
+  width:5px;
+  height:7px;
+  background:#8b4845;
+  position:absolute;
+  bottom:40px;
+  left:25px;
+}
+.adorno-miCuenta-desplegado_2{
+  width:5px;
+  height:7px;
+  background:#8b4845;
+  position:absolute;
+  bottom:40px;
+  left:120px;
+}
+.articulos-carrito{
+  margin:40px auto;
+  background:#f2f2f2;
+  width:95%;
+  border-radius:7px;
+}
+.articulos-carrito article{
+  display: flex;
+  justify-content: space-evenly;
+  align-items:center;
+  padding:10px;
+}
+.imagen-libro{
+  width:120px;
+}
+
+.modificar-cantidad{
+  width:18px;
+  cursor:pointer;
+}
+.display-cantidad{
+  border:1px solid #e7c140;
+  text-align: center;
+  width:30px;
+  padding:5px;
+  font-size:21px;
+  font-family:'Open Sans';
+}
+.cont-cantidad{
+  text-align: center;
+}
+.precio{
+  font-size:28px;
+  font-family:'Open Sans';
+}
+.simbolo-dinero{
+
+
+}
+.simbolo-ceros{
+  
+}
+.lbl-precio{
+  
+}

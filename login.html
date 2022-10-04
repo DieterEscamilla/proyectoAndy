@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head lang="es">
+  <meta charset="UTF-8">
+  <title>Alpha Books</title>
+  <link rel="stylesheet" href="css/estilos_loigin.css">
+  <link rel="shorcut icon" type="image/x-icon" href="LOGO_OFICIAL.svg">
+</head>
+<body>  
+<header>     
+      <button class="carrito-compras"><img src="iconos/bolsa-de-la-compra.png"></button>
+      <nav class="menu">
+        <ul class="menu-general menu-izquierdo">
+            <li><a id="generos-menu" href="#">Géneros</a></li>
+            <li><a href="#">Audiolibros</a></li>
+            <li><a href="#">E-books</a></li>
+        </ul>
+              <img class="logo" src="LOGO_OFICIAL.svg">
+              <a class="enlace-inicio" href="index.html"></a>
+        <ul class="menu-general menu-derecho">
+            <li><a href="#">Nosotros</a></li>
+            <li><a id="menu-mi-cuenta" href="#">Mi cuenta</a></li>
+            <li><a href="#">Productos</a></li>
+        </ul>     
+             <ul id="generos-desplegado" class="menus-desplegables generos-desplegado">
+              <div class="adorno-generos-desplegado_1"></div>
+              <div class="adorno-generos-desplegado_2"></div>
+              <li class="menu-generos"><a href="generos/terror.html">Terror</a></li>
+              <li class="menu-generos"><a href="">Ficción</a></li>
+              <li class="menu-generos"><a href="">Fantasía</a></li>
+              <li class="menu-generos"><a href="">Informática</a></li>
+              <li class="menu-generos"><a href="">Romanticos</a></li>
+              <li class="menu-generos"><a href="">Niños</a></li>
+              <li class="menu-generos"><a href="">Jóvenes</a></li>
+            </ul> 
+           <ul id="mi-cuenta-desplegado" class="menus-desplegables mi-cuenta-desplegado">
+            <div class="adorno-miCuenta-desplegado_1"></div>
+            <div class="adorno-miCuenta-desplegado_2"></div>
+             <li class="menu-generos"><a href="#">Perfil</a></li>
+             <li class="menu-generos"><a href="#">Pedidos</a></li>
+             <li class="menu-generos"><a href="#">Pagos</a></li>
+             <li class="menu-generos"><a href="#">Favoritos</a></li>
+             <li class="menu-generos"><a href="#">Cerrar sesión</a></li>
+           </ul>
+      </nav>
+             
+    </header>
+    <main>
+      <form class="form-iniciarSesion">
+              <label class="lbl_iniciar-sesion">Iniciar sesión</label>
+        <div class="cont_inp-login">
+          <label class="lbl_email">E-mail</label>
+          <input class="inp-login" type="text" placeholder="Ingrese su correo" name="">
+          <label class="lbl_password">Contraseña</label>
+          <input class="inp-login" type="password" placeholder="Ingrese su contraseña" name="">
+        </div>
+        <input type="submit" value="Iniciar sesión" name="">
+        <p>¿No tienes una cuenta aún? <a class="registrarse" href="registro.html">Regístrate aquí</a></p>
+      </form>
+    </main>
+    <script src="js/script_login.js"></script>
+</body>
+</html>

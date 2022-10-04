@@ -1,0 +1,241 @@
+*{
+  margin:0;
+  padding:0;
+}
+body{
+  background:#2a171e;
+}
+.logo{
+  position:relative;
+  width:550px;
+  height:170px;
+  top:-10px;
+}
+.enlace-inicio{
+  position:absolute;
+  width:300px;
+  height:110px;
+  top:80px;
+  left:520px;
+}
+nav{
+  margin-top:40px;
+  /*display:flex;
+  justify-content:center;*/
+}
+.menu-derecho{
+  position:relative;
+  right:33px;
+  width:36%;
+  border-bottom:2px solid #8b4845;
+  border-right:2px solid #8b4845;
+}
+.menu-izquierdo{
+  position:relative;
+  left:24px;
+  width:36%;
+  border-bottom:2px solid #8b4845;
+  border-left:2px solid #8b4845;
+}
+.menu{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+}
+.menu-general{
+  display:flex;
+  justify-content: space-around;
+  height:25px;
+  list-style:none;
+  font-family:'Open Sans';
+  font-size:18px;
+  margin-top:12px;
+}
+.menu-general li{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  height:100%;
+  width:100%;
+}
+.menu-general li:hover{
+  background:#8b4845;
+}
+.menu-general li a{
+  text-decoration: none;
+  color:#e7c140;
+  font-weight: 700;
+  padding:25px;
+}
+
+.menu-generos:hover{
+  background:#8b4845;
+}
+.generos-desplegado{
+  position:absolute;
+  top:150px;
+  left:27px;
+  width:160px;
+  height:40px;
+  visibility:hidden;
+
+}
+.mi-cuenta-desplegado{
+  position:absolute;
+  right:165px;
+  top:150px;
+  width:160px;
+  height:40px;
+  visibility:hidden;
+  z-index: 100;
+}
+.menus-desplegables li{
+  height:100%;
+  background:#8b4845;
+  list-style:none;
+  font-family:'Open Sans';
+  font-size:16px;
+}
+.menus-desplegables li:hover{
+  background:#0087ff;
+}
+.menus-desplegables li a{
+  margin-left:10px;
+  display:flex;
+  align-items:center;
+  text-decoration:none;
+  color:#ffffff;
+  height:100%;
+}
+.carrito-compras{
+  width:55px;
+  height:50px;
+  position:absolute;
+  right:65px;
+  top:34px;
+  background:#5763ff;
+  border:1px solid #ff7957;
+  border-radius:10px;
+  cursor:pointer;
+}
+.carrito-compras:hover{
+  background:#9c442d;
+  
+}
+.carrito-compras img{
+  width:35px;
+}
+.adorno-generos-desplegado_1{
+  width:5px;
+  height:7px;
+  background:#8b4845;
+  position:absolute;
+  bottom:40px;
+  left:20px;
+
+}
+.adorno-generos-desplegado_2{
+  width:5px;
+  height:7px;
+  background:#8b4845;
+  position:absolute;
+  bottom:40px;
+  left:120px;
+
+}
+.adorno-miCuenta-desplegado_1{
+  width:5px;
+  height:7px;
+  background:#8b4845;
+  position:absolute;
+  bottom:40px;
+  left:25px;
+}
+.adorno-miCuenta-desplegado_2{
+  width:5px;
+  height:7px;
+  background:#8b4845;
+  position:absolute;
+  bottom:40px;
+  left:120px;
+}
+.form-iniciarSesion{
+  margin:40px auto;
+  border:1px solid #ff7957;
+  border-radius:10px;
+  width:600px;
+  height:480px;
+  text-align: center;
+  font-family:'Open Sans';
+  font-size:18px;
+  color:#f2f2f2;
+  padding-top: 55px;
+}
+.inp-login{
+    padding:8px;
+    background:#2a171e;
+    border:none;
+    border-bottom:2px solid #5763ff;
+    width:100%;
+    font-size:17px;
+    outline:none;
+    color:#f2f2f2;
+    
+}
+.inp-login:focus{
+  border-bottom:2px solid #ff7957;
+}
+.inp-login::placeholder{
+  font-size:14px;
+}
+.form-iniciarSesion input[type="submit"]{
+  padding:12px 24px;
+  background:#5763ff;
+  border:1px solid #ff7957;
+  border-radius:7px;
+  cursor:pointer;
+  font-size:16px;
+  font-weight: 600;
+  color:#000;
+
+}
+.form-iniciarSesion input[type="submit"]:hover{
+  background:#9c442d;
+}
+.form-iniciarSesion .cont_inp-login input[type="text"]{
+  margin-top:1px;
+  margin-bottom:60px;
+}
+.form-iniciarSesion .cont_inp-login input[type="password"]{
+  margin-top:1px;
+  margin-bottom:50px;
+}
+.form-iniciarSesion .cont_inp-login label{
+  color:#e7c140;
+}
+
+.form-iniciarSesion .cont_inp-login{
+  width:280px;
+  margin:50px auto 0 auto;
+  display:flex;
+  flex-wrap: wrap;
+  color:#f2f2f2;
+}
+.form-iniciarSesion .lbl_iniciar-sesion{
+    
+    color:#f2f2f2;
+    font-size:25px;
+}
+.form-iniciarSesion p{
+  font-size:17px;
+  color:#f2f2f2;
+  margin-top:40px;
+
+}
+.form-iniciarSesion p a{
+  text-decoration: none;
+  color:#ff7957;
+}
+.form-iniciarSesion p a:hover{
+  color:#e7c140;
+}

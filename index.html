@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Alpha Books</title>
+  <link rel="stylesheet" href="css/estilos_index.css">
+  <link rel="shorcut icon" type="image/x-icon" href="LOGO_OFICIAL.svg">
+</head>
+<body>
+    <header>     
+      <button class="carrito-compras" id="carrito-boton"><img src="iconos/bolsa-de-la-compra.png"></button>
+      <div class="numero-articulos" id="numero-articulos">0</div>
+      <section class="cont-carrito" id="contenedor-carrito">
+        <div class="cont-titulo-carrito">
+        <h2 class="titulo-carrito">CARRITO</h2>
+      </div>
+         <div class="carrito-seccion-productos" id=carrito-seccion-productos>
+         </div>
+         <a class="enlace-proceder-al-pago" href="carrito.html">
+         <div class="proceder-al-pago-cont">
+          <button class="proceder-al-pago-btn">Proceder al pago</button>
+         </div>
+       </a>
+      </section>
+     <div class="cont-registro-login"><a href="login.html">Ingresar </a>o<a href="registro.html"> crear una cuenta</a></div>
+      <nav class="menu">
+        <ul class="menu-general menu-izquierdo">
+            <li><a id="generos-menu" href="#">Géneros</a></li>
+            <li><a href="#">Audiolibros</a></li>
+            <li><a href="#">E-books</a></li>
+        </ul>
+              <img class="logo" src="LOGO_OFICIAL.svg">
+              <a class="enlace-inicio" href="index.html"></a>
+        <ul class="menu-general menu-derecho">
+            <li><a href="#">Nosotros</a></li>
+            <li><a id="menu-mi-cuenta" href="#">Mi cuenta</a></li>
+            <li><a href="#">Productos</a></li>
+        </ul>     
+             <ul id="generos-desplegado" class="menus-desplegables generos-desplegado">
+              <div class="adorno-generos-desplegado_1"></div>
+              <div class="adorno-generos-desplegado_2"></div>
+              <li class="menu-generos"><a href="generos/terror.html">Terror</a></li>
+              <li class="menu-generos"><a href="">Ficción</a></li>
+              <li class="menu-generos"><a href="">Fantasía</a></li>
+              <li class="menu-generos"><a href="">Informática</a></li>
+              <li class="menu-generos"><a href="">Romanticos</a></li>
+              <li class="menu-generos"><a href="">Niños</a></li>
+              <li class="menu-generos"><a href="">Jóvenes</a></li>
+            </ul> 
+           <ul id="mi-cuenta-desplegado" class="menus-desplegables mi-cuenta-desplegado">
+            <div class="adorno-miCuenta-desplegado_1"></div>
+            <div class="adorno-miCuenta-desplegado_2"></div>
+             <li class="menu-generos"><a href="#">Perfil</a></li>
+             <li class="menu-generos"><a href="#">Pedidos</a></li>
+             <li class="menu-generos"><a href="#">Pagos</a></li>
+             <li class="menu-generos"><a href="#">Favoritos</a></li>
+             <li class="menu-generos"><a href="#">Cerrar sesión</a></li>
+           </ul>
+      </nav>
+          </div>
+    </header>
+    <main> 
+      <div class="contenedor-barra-busqueda">
+         <input class="barra-busqueda" id="barra-busqueda" type="text" autocomplete="off" placeholder="Busca un título...">
+         <button class="contenedor-lupa" id="busqueda-libros"><img class="lupa-icono" src="iconos/busqueda-de-lupa.png"></button>
+         <div class=cancelar-busqueda id="cancelar-busqueda">x</div>
+      </div> 
+      
+      <section class="slider-inicio">
+        <img class="img-slider" src="img/HP_slider_inicio.png">
+        <!-- <img class="img-slider" src="img/slider_2.jpg"> -->
+        <div class="cont-selector-img-slider">
+          <div class="selector-img-slider" id="selector-img-slider"></div>
+          <div class="selector-img-slider" id="selector-img-slider"></div>
+          <div class="selector-img-slider" id="selector-img-slider"></div>
+          <div class="selector-img-slider" id="selector-img-slider"></div> 
+        </div>
+      </section>
+      <section class="productos-random">
+         
+        <article id="recuadro-libro">
+          <img src="img/productos/Harry_Potter_y_la_piedra_filosofal.jpg">
+          <label class="titulo-libro">Harry Potter y la piedra filosofal</label>
+          <label class="autor-libro">J. K. Rowling</label>
+          <label class="precio-libro">$359.00</label>
+          <button class="agregar-carrito" id="HPYLPF">Agregar al carrito +</button>
+        </article>
+       
+        
+        <article id="recuadro-libro">
+          <img src="img/productos/ESDLA_El_retorno_del_rey.png">
+          <label class="titulo-libro">El señor de los anillos: el retorno del rey</label>
+          <label class="autor-libro">J. R. R. Tolkien</label>
+          <label class="precio-libro">$298.00</label>
+          <button class="agregar-carrito" id="ESDLA3">Agregar al carrito +</button>
+        </article>
+          
+        <article id="recuadro-libro">
+          <img src="img/productos/La_fuerza_centrifuga.png">
+          <label class="titulo-libro">La fuerza centrífuga</label>
+          <label class="autor-libro">Jazmin Daehesa</label>
+          <label class="precio-libro">$250.00</label>
+          <button class="agregar-carrito" id="FCENTRI">Agregar al carrito +</button>
+        </article>
+     
+     
+        <article id="recuadro-libro">
+          <img src="img/productos/Pequeño_chairo_ilustrado.png">
+          <label class="titulo-libro">Pequeño chairo ilustrado</label>
+          <label class="autor-libro">Ramiro Padilla</label>
+          <label class="precio-libro">$165.00</label>
+          <button class="agregar-carrito" id="PEQCHAIR">Agregar al carrito +</button>
+        </article>
+     
+
+
+       
+        <article id="recuadro-libro">
+          <img src="img/productos/fantasia_libros/elantris.png">
+          <label class="titulo-libro">Elantris</label>
+          <label class="autor-libro">Brandon Sanderson</label>
+          <label class="precio-libro">$340.00</label>
+          <button class="agregar-carrito" id="ELANTRIS">Agregar al carrito +</button>
+        </article>
+      
+       
+        <article id="recuadro-libro">
+          <img src="img/productos/terror_libros/el_cuervo.png">
+          <label class="titulo-libro">El cuervo</label>
+          <label class="autor-libro">Edgar Allan Poe</label>
+          <label class="precio-libro">$130.00</label>
+          <button class="agregar-carrito" id="CUERVO">Agregar al carrito +</button>
+        </article>
+      </section>
+      <section class="seccion-publicitaria">
+        <article class="article-publicidad">
+          <img class="img-grupo" src="iconos/grupo.png">
+          <h2>Acerca de nosotros</h2>
+          <p>Somos una librería en línea comprometida con una experiencia agradable y plena para todos nuestros clientes</p>
+        </article>
+        <article class="article-publicidad">
+          <img class="img-productos"src="iconos/pila-de-libros-de-tres.png">
+          <h2>Nuestros productos</h2>
+          <p>Encuentra diversos géneros y obras en nuestra sección de Géneros</p>
+        </article>
+        <article class="article-publicidad">
+          <img class="img-envios" src="iconos/enviado.png">
+          <h2>Envíos</h2>
+          <p>Los envíos son gratis a partir de una compra igual o mayor a $100</p>
+        </article>
+      </section>
+    </main>
+    <footer>
+      <div>
+      <h3 class="titulo-redes-sociales">¡Visita nuestras redes sociales!</h3>
+        <img class="redes fb"src="iconos/facebook.png">
+        <img class="redes twitter"src="iconos/gorjeo.png">
+        <img class="redes inst"src="iconos/logotipo-de-instagram.png">
+      </div>
+      <div class="correos-contacto">
+        <h2>Contáctanos</h2>
+        <p>alphabooks@gmail.com</p>
+        <p>245 778 4580</p>
+      </div>
+    </footer>
+    <script src="js/script_index.js"></script>
+</body>
+</html>

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Alpha Books</title>
+  <link rel="stylesheet" href="css/estilos_carrito.css">
+  <link rel="shorcut icon" type="image/x-icon" href="LOGO_OFICIAL.svg">
+</head>
+<body>
+    <header>     
+      <!-- <button class="carrito-compras"><img src="iconos/bolsa-de-la-compra.png"></button> -->
+     <div class="cont-registro-login"><a href="login.html">Ingresar </a>o<a href="registro.html"> crear una cuenta</a></div>
+      <nav class="menu">
+        <ul class="menu-general menu-izquierdo">
+            <li><a id="generos-menu" href="#">Géneros</a></li>
+            <li><a href="#">Audiolibros</a></li>
+            <li><a href="#">E-books</a></li>
+        </ul>
+              <img class="logo" src="LOGO_OFICIAL.svg">
+              <a class="enlace-inicio" href="index.html"></a>
+        <ul class="menu-general menu-derecho">
+            <li><a href="#">Nosotros</a></li>
+            <li><a id="menu-mi-cuenta" href="#">Mi cuenta</a></li>
+            <li><a href="#">Productos</a></li>
+        </ul>     
+             <ul id="generos-desplegado" class="menus-desplegables generos-desplegado">
+              <div class="adorno-generos-desplegado_1"></div>
+              <div class="adorno-generos-desplegado_2"></div>
+              <li class="menu-generos"><a href="generos/terror.html">Terror</a></li>
+              <li class="menu-generos"><a href="">Ficción</a></li>
+              <li class="menu-generos"><a href="">Fantasía</a></li>
+              <li class="menu-generos"><a href="">Informática</a></li>
+              <li class="menu-generos"><a href="">Romanticos</a></li>
+              <li class="menu-generos"><a href="">Niños</a></li>
+              <li class="menu-generos"><a href="">Jóvenes</a></li>
+            </ul> 
+           <ul id="mi-cuenta-desplegado" class="menus-desplegables mi-cuenta-desplegado">
+            <div class="adorno-miCuenta-desplegado_1"></div>
+            <div class="adorno-miCuenta-desplegado_2"></div>
+             <li class="menu-generos"><a href="#">Perfil</a></li>
+             <li class="menu-generos"><a href="#">Pedidos</a></li>
+             <li class="menu-generos"><a href="#">Pagos</a></li>
+             <li class="menu-generos"><a href="#">Favoritos</a></li>
+             <li class="menu-generos"><a href="#">Cerrar sesión</a></li>
+           </ul>
+      </nav>
+          </div>
+      
+    </header>
+    <main>
+       <section class="articulos-carrito">
+        <article>
+          <img class="imagen-libro" src="img/productos/ESDLA_el_retorno_del_rey.png">
+            <div class="titulos-libro">
+            <h3 class="titulo-libro-carrito">El señor de los anillos: el retorno del rey</h3>
+            <h3 class="autor-carrito">J. R. R. Tolkien</h3>
+          </div>
+          <div class="cont-cantidad">
+            <img class="modificar-cantidad" id="boton-mas-cantidad" src="iconos/mas.png">
+            <div class="display-cantidad" id="display-cantidad-libros">1</div>
+            <img class="modificar-cantidad" id="boton-menos-cantidad" src="iconos/menos.png">
+          </div>
+          <div class="contenedor-precio-libro">
+            <label class="lbl-precio">Precio</label>
+            <span class="simbolo-dinero">$</span>
+            <h3 class="precio" id="monto-total">209</h3>
+            <span class="simbolo-ceros">.00</span>
+          </div>
+        </article>
+        <article>
+          
+        </article>
+       </section>
+
+
+    </main>
+    <script src="js/script_carrito.js"></script>
+   </body> 
+ </html>
